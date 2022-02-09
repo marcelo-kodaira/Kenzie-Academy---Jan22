@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Dados para login</legend>
+            <label for="email">Digite o seu email</label>
+            <input type="text" name="email" id="email" placeholder="seuemail@dominio.com">
+            <label for="senha">Digite sua senha</label>
+            <input type="password" name="senha" id="email" placeholder="12345">
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Digite seu Nome</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="sobrenome">Digite seu sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+            <br>
+            <span>Informe seu sexo:</span>
+            <input type="radio" name="sexo" id="sexo">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="sexo" id="sexo">
+            <label for="Feminino">Feminino</label>
+            <br>
+            <label for="CPF">Digite seu CPF</label>
+            <input type="number" name="CPF" id="CPF">
+            <br>
+            <label for="nasc">Digite sua data de nascimento</label>
+            <input type="date" name="nasc" id="nasc">
+            <br>
+            <label for="tel">Digite seu n de telefone</label>
+            <input type="number" name="tel" id="tel">
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="cep">Digite seu CEP</label>
+            <input type="number" id="cep">
+
+            <br>
+            <label for="numero">Digite o Número</label>
+            <input type="number" id="numero">
+
+            <br>
+            <label for="bairro">Digite seu Bairro</label>
+            <input type="text" id="bairro">
+
+            <br>
+            <label for="rua">Digite sua Rua</label>
+            <input type="text" id="rua">
+
+            <br>
+            <label for="estado">Digite seu Estado</label>
+            <select name="estado" id="estado">
+                <option value="">Escolha o Estado</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="TO">Tocatins</option>
+                <option value="PR">Paraná</option>
+            </select>
+
+            <br>
+            <label for="cep">Digite sua Cidade</label>
+            <input type="text" id="cep">
+
+            <br>
+            <label for="coment">Digite mais alguma coisa importante</label>
+            <br>
+            <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Digite seu comentários"></textarea>
+        </fieldset>
+    </form>
+
+    <button>Enviar</button>
+
+</body>
+</html>

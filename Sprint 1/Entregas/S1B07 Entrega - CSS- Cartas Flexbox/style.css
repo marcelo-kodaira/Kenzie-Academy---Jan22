@@ -1,0 +1,68 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 710px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.flex-card{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 233px;
+  width: 238px;
+  border: 1.3px solid lightgray;
+}
+  .flex-card div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-grow: 1;
+      
+  }
+      .flex-card div h2{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 28px;
+          text-align: center;
+      }
+      .flex-card div p{
+          font-weight: 300;
+          font-style: italic;
+          font-size: 12px;
+          line-height: 28px;
+          text-align: center;
+      }
+
+
+.flex-card>p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 238px;
+  padding: 13px 0 0 0;
+  background: #ECF1F4;
+  
+}
+
+
